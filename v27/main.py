@@ -102,7 +102,8 @@ class ClientThread(Thread):
 			print(f"[INFO] Ip: {self.address[0]} disconnected!")
 			self.client.close()
 
-
+print("RomashkaBruh v0.1 is starting")
+print("Copyright 2021 Romashka and gene")
 if __name__ == '__main__':
 	server = Server('0.0.0.0', 9339)
 	server.start()
